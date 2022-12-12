@@ -1,5 +1,15 @@
 #include <iostream>
-
+#include "lib.cpp"
+using namespace std;
 int main(){
-  return 0;
+    int dim=0;
+    cin >>dim ;
+    if (dim>0){
+        float a[dim];
+        for(i=0; i<dim;i++){
+            cin >> a[1];
+        }
+    cout << max_array(a,dim);
+    }
+else return 0;
 }
