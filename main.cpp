@@ -6,7 +6,7 @@ int main(){
     cin >>dim ;
     if (dim>0){
         float a[dim];
-        for(i=0; i<dim;i++){
+        for(int i=0; i<dim;i++){
             cin >> a[1];
         }
     cout << max_array(a,dim);
